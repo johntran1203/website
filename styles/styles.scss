@@ -412,4 +412,16 @@ section {
     font-weight: 700;
 }
 
+.email {
+    color: var(--color-secondary)
+
+}
+
+.email:hover {
+    background-color: var(--color-grey-4);
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+
 @import './media';
