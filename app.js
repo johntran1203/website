@@ -40,6 +40,9 @@
 
 // alert('hi')
 
+  // getting HTML elements
+
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -53,3 +56,14 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+
+
+
+  // getting HTML elements
+  const nav = document.querySelector("nav"),
+        toggleBtn = nav.querySelector(".toggle-btn");
+
+    toggleBtn.addEventListener("click" , () =>{
+      nav.classList.toggle("open");
+    //   document.querySelector('.ctrls').classList.add('ctrl-on')
+    });
